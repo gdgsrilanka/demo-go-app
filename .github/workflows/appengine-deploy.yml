@@ -1,0 +1,25 @@
+name: App Engine Deploy
+
+on:
+  push:
+    branches:
+      - main # Change this to your desired branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - id: "auth"
+        name: "Authenticate to Google Cloud"
+        uses: "google-github-actions/auth@v1"
+        with:
+          credentials_json: "${{ secrets.GCLOUD_AUTH }}"
+
+      - id: 'deploy'
+        uses: 'google-github-actions/deploy-appengine@v1'
+        with:
+            project_id: ${{ secrets.GCLOUD_PROJECT_ID }}
