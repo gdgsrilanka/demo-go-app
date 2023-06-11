@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"net/http"
+
+	// "google.golang.org/appengine"
 )
 
 func main() {
@@ -10,7 +12,10 @@ func main() {
 		fmt.Fprintf(w, "Hello, NIBM! \nHow you like that? \n")
 	})
 
+
+
 	fmt.Println("Starting NIBM API Server...")
 	fmt.Println("Listening on :8080")
 	http.ListenAndServe(":8080", nil)
+	// appengine.Main()
 }
