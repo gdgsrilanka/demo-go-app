@@ -12,7 +12,7 @@ func main() {
 
 	// /hello endpoint
 	http.HandleFunc("/hello", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Hello, NIBM! \nThis is endpoint 2\n")
+		fmt.Fprintf(w, "Hello, UOR! \nThis is endpoint 2\n")
 	})
 
 
