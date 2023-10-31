@@ -7,7 +7,7 @@ import (
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Hello, NIBM! \nHow you like that? \n")
+		fmt.Fprintf(w, "Hello, UOR! \n")
 	})
 
 	// /hello endpoint
@@ -17,7 +17,7 @@ func main() {
 
 
 
-	fmt.Println("Starting NIBM API Server...")
+	fmt.Println("Starting UOR API Server...")
 	fmt.Println("Listening on :8080")
 	http.ListenAndServe(":8080", nil)
 }

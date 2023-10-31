@@ -1,5 +1,5 @@
 # How You Like That app
-Sample Go application for NIBM Build &amp; Deploy to GCP Session
+Sample Go application for UOR Outreach: Build &amp; Deploy to GCP Session
 
 # Prerequisites 
 

@@ -3,7 +3,7 @@ name: App Engine Deploy
 on:
   push:
     branches:
-      - main # Change this to your desired branch
+      - main
 
 jobs:
   deploy:
