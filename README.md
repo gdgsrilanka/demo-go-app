@@ -7,3 +7,4 @@ Sample Go application for UOR Outreach: Build &amp; Deploy to GCP Session
 - Payment enabled OR cloud credits 
 - App Engine Admin API should be enabled
 
+Test 1
