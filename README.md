@@ -1,4 +1,4 @@
-# UOR Outreach: Build &amp; Deploy to GCP Session
+# Build &amp; Deploy to GCP Session
 Sample Go application for UOR Outreach: Build &amp; Deploy to GCP Session
 
 # Prerequisites 
@@ -6,5 +6,3 @@ Sample Go application for UOR Outreach: Build &amp; Deploy to GCP Session
 - Google Cloud Account 
 - Payment enabled OR cloud credits 
 - App Engine Admin API should be enabled
-
-Test 1
