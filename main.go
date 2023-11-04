@@ -7,17 +7,17 @@ import (
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Hello, UOR! \n")
+		fmt.Fprintf(w, "Hello, Folks! \n")
 	})
 
 	// /hello endpoint
 	http.HandleFunc("/hello", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Hello, UOR! \nThis is endpoint 2\n")
+		fmt.Fprintf(w, "Hello, Folks! \nThis is endpoint 2\n")
 	})
 
 
 
-	fmt.Println("Starting UOR API Server...")
+	fmt.Println("Starting Folks API Server...")
 	fmt.Println("Listening on :8080")
 	http.ListenAndServe(":8080", nil)
 }
