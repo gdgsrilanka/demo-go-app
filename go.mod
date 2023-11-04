@@ -1,4 +1,4 @@
-module github.com/chamodshehanka/how-you-like-that
+module github.com/gdgsrilanka/demo-go-app
 
 go 1.17
 
