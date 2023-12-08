@@ -118,3 +118,10 @@ kubectl apply -f deployment.yaml
 kubectl expose deployment devfest-demo-test-1 --type=LoadBalancer --port 80 --target-port 8080
 
 ```
+
+## 5. Verify the application
+```bash
+
+kubectl get svc
+
+```
